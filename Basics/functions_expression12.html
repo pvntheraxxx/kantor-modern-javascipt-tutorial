@@ -1,0 +1,16 @@
+<!-- Можно упростить ещё сильнее, используя условный оператор "?": -->
+<!-- Что можно сделать, чтобы welcome была снаружи if? -->
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <body>
+        <script>
+            let age = prompt("Сколько Вам лет?",18);
+            
+            let welcome = (age < 18) ? 
+                function() { alert("Привет!"); } :
+                function() { alert("Здравствуйте!"); };
+            welcome(); // теперь всё в порядке
+        </script>
+    </body>
+</html>

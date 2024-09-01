@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            // Не будет ошибкой
+            let message = "hello";
+            message = 123456;
+            // Число
+            let n = 123;
+            n = 12.345;
+            // Мы можем получить тип Infinity
+            alert(1/0);
+            // Или явно задать его
+            alert(Infinity);
+            // Nan означает вычислительную ошибку
+            alert("не число"/2); // Nan, такое деление яявляется ошибкой
+            // Любая математическая операция с Nan
+            // возвращает NaN
+            alert(NaN+1); // Nan
+            alert(3 * NaN); // Nan
+            alert("не число"/2-1); // Nan
+        </script>
+    </body>
+</html>
