@@ -6,3 +6,6 @@ let total = obj1 + obj2;
 
 // obj == number использует хинт "default"
 if (user == 1) { };
+
+
+const myName = "123"
